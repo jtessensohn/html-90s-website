@@ -1,13 +1,47 @@
+body {
+    background-image: url(/images/background.png);
+}
+
+.title {
+    margin: auto;
+    width: 50%;
+}
+
+.middle {
+    margin: auto;
+    width: 50%;
+}
+
+.container {
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 .dog_list {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
-.dog_list > li {
+
+.grid-item {
     float: left;
+    width: 25%;
+    height: 25%;
 }
 
-.dog_list > li:not(:last-child) {
-    margin-right: 10px;
+.family_photo {
+    margin: auto;
+    width: 50%;
 }
+
+/* .container2 {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-item2 {
+    padding: 1%;
+    float: left;
+    width: 20%;
+    height: 20%;
+} */

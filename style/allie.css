@@ -1,0 +1,19 @@
+body {
+    background-image: url(/images/background.png);
+    margin: 0;
+    padding: 10px;
+}
+
+.gallery {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    border: 5px solid white;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
