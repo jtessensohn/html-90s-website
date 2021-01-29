@@ -1,0 +1,13 @@
+.dog_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dog_list > li {
+    float: left;
+}
+
+.dog_list > li:not(:last-child) {
+    margin-right: 10px;
+}
